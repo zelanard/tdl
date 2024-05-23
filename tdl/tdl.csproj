@@ -51,10 +51,37 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="View\build\asset-manifest.json" />
+    <None Include="View\build\manifest.json" />
+    <None Include="View\build\static\css\main.50552bb1.css.map" />
+    <None Include="View\build\static\js\453.81f383cb.chunk.js.map" />
+    <None Include="View\build\static\js\main.c41c8be9.js.map" />
+    <None Include="View\public\asset-manifest.json" />
+    <None Include="View\public\manifest.json" />
+    <None Include="View\public\static\css\main.50552bb1.css.map" />
+    <None Include="View\public\static\js\453.81f383cb.chunk.js.map" />
+    <None Include="View\public\static\js\main.c41c8be9.js.map" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="View\build\" />
-    <Folder Include="View\public\" />
+    <Content Include="View\build\favicon.ico" />
+    <Content Include="View\build\index.html" />
+    <Content Include="View\build\logo192.png" />
+    <Content Include="View\build\logo512.png" />
+    <Content Include="View\build\robots.txt" />
+    <Content Include="View\build\static\css\main.50552bb1.css" />
+    <Content Include="View\build\static\js\453.81f383cb.chunk.js" />
+    <Content Include="View\build\static\js\main.c41c8be9.js" />
+    <Content Include="View\build\static\js\main.c41c8be9.js.LICENSE.txt" />
+    <Content Include="View\public\favicon.ico" />
+    <Content Include="View\public\index.html" />
+    <Content Include="View\public\logo192.png" />
+    <Content Include="View\public\logo512.png" />
+    <Content Include="View\public\robots.txt" />
+    <Content Include="View\public\static\css\main.50552bb1.css" />
+    <Content Include="View\public\static\js\453.81f383cb.chunk.js" />
+    <Content Include="View\public\static\js\main.c41c8be9.js" />
+    <Content Include="View\public\static\js\main.c41c8be9.js.LICENSE.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
